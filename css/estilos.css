@@ -1,0 +1,82 @@
+@font-face{
+      font-family: 'GothamBlack';
+      src: url('../fuente/GothamBlack.woff') format('woff');
+
+      font-weight: normal;
+      font-style: normal;
+      
+}
+
+.izquierda,.derecha{
+  height:50vh;
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px){
+    .izquierda,.derecha{
+     
+     height:100vh; 
+   }
+
+
+}
+
+.izquierda{
+ background-color:#50c878;/*esmeralda*/
+}
+  
+.derecha{
+     background-color:#3498db;/*peter river*/
+}
+
+.encabezado{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  padding-left: 16px;
+  padding-right:13px;
+}
+
+.tema{
+  background-color:#226d3b;
+}
+.tema:hover{
+  background-color:#3498db;
+  color:white;
+}
+
+.titulo {
+  color:white;
+  font-size: 24px;
+  font-family:'GothamBlack';
+}
+
+  .cuerpo{
+    font-family:sans-serif;
+    color: white;
+    font-size: 18px;
+    background-color: #226d3b;
+    border-radius: .25rem;
+    padding: 10px;
+    text-align: justify;
+  text-justify: inter-word;
+
+  }
+
+  .circulo{
+  height: 25px;
+  width: 25px;
+  background-color: transparent;
+  border-radius: 50%;
+  border-style: dotted;
+  }
+
+  .item_b{
+    cursor: pointer;
+  }
+
+  
+ 
+  
+  
